@@ -44,7 +44,7 @@ This research is shared for a academic and research purposes. For commercial use
 * **Resources** \
 https://www.ijisae.org/ \
 * **Author Contact** \
-* **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
+ **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
 
 
 
