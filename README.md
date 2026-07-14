@@ -1,5 +1,5 @@
 # cpu-usage
-**Adaptive CPU Resource Management in Distributed Systems**
+**Adaptive CPU Resource Management in Distributed Systems**   ----> Conference
 
 ### Paper Information
 - **Author(s):** SaiKrishna Mylavarapu
