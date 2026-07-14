@@ -26,7 +26,7 @@ Efficient CPU resource management is essential for maintaining high performance 
 
 ### Experimental Results (Summary)
 
-  | Cluster Size | Deterministic Allocation (%) | Load Distribited Allocation (%) | Improvment (%) |
+  | Cluster Size | Deterministic Allocation (%) | Load Distributed Allocation (%) | Improvement (%) |
   |--------------|------------------------------| --------------------------------| ---------------|
   | 3            |  78                          | 82                              | 5.13           |
   | 5            |  72                          | 79                              | 9.72           |
