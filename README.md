@@ -26,13 +26,13 @@ Efficient CPU resource management is essential for maintaining high performance 
 
 ### Experimental Results (Summary)
 
-  | Nodes | Immediate Commit | Group Commit | Improvment (%) |
-  |-------|------------------| -------------| ---------------|
-  | 3     |  160             | 95           | 40.63          |
-  | 5     |  185             | 110          | 40.54          |
-  | 7     |  210             | 125          | 40.48          |
-  | 9     |  235             | 140          | 40.43          |
-  | 11    |  260             | 155          | 40.38          |
+  | Cluster Size | Deterministic Allocation (%) | Load Distribited Allocation (%) | Improvment (%) |
+  |--------------|------------------------------| --------------------------------| ---------------|
+  | 3            |  78                          | 82                              | 5.13           |
+  | 5            |  72                          | 79                              | 9.72           |
+  | 7            |  66                          | 75                              | 13.64          |
+  | 9            |  61                          | 72                              | 18.03          |
+  | 11           |  57                          | 70                              | 22.81          |
 
 ### Citation
 Adaptive CPU Resource Management in Distributed Systems
