@@ -43,8 +43,8 @@ Adaptive CPU Resource Management in Distributed Systems
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 * **Resources** \
 https://www.ijisae.org/ \
-* **Author Contact** \
- **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
+* Author Contact \
+  LinkedIn: linkedin.com/in/saikrishna-mylavarapu-35479114 | Email: krishnamysap@gmail.com
 
 
 
