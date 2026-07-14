@@ -3,11 +3,11 @@
 
 ### Paper Information
 - **Author(s):** SaiKrishna Mylavarapu
-- **Published In:** International Journal on Science and Technology (IJSAT)
-- **Publication Date:** July, 2021
-- **ISSN:** E-ISSN: 2229-7677
+- **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
+- **Publication Date:** March, 2023
+- **ISSN:** E-ISSN: 2147-6799
 - **DOI:**
-- **Impact Factor:** 9.88
+- **Impact Factor:** 
 
 ### Abstract
 Distributed transaction systems often experience high commit latency because each transaction is processed independently with repeated coordination and synchronization among nodes. This work examines the impact of immediate commit processing on latency as cluster size increases. A batching based commit approach is introduced where multiple transactions are processed collectively to reduce repeated coordination overhead. Experimental analysis across different cluster sizes shows that grouped commit processing significantly lowers commit latency and improves scalability in distributed environments.
