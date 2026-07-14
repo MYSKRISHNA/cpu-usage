@@ -10,7 +10,7 @@
 - **Impact Factor:** 
 
 ### Abstract
-Distributed transaction systems often experience high commit latency because each transaction is processed independently with repeated coordination and synchronization among nodes. This work examines the impact of immediate commit processing on latency as cluster size increases. A batching based commit approach is introduced where multiple transactions are processed collectively to reduce repeated coordination overhead. Experimental analysis across different cluster sizes shows that grouped commit processing significantly lowers commit latency and improves scalability in distributed environments.
+Efficient CPU resource management is essential for maintaining high performance in distributed systems as workloads and cluster sizes increase. Static workload allocation results in uneven CPU utilization, while conventional load balancing techniques cannot effectively adapt to dynamic workload variations. The study analyzes CPU usage across clusters with 3, 5, 7, 9, and 11 nodes to evaluate the limitations of existing allocation strategies. It demonstrates how workload imbalance and coordination overhead reduce resource utilization, system efficiency, and scalability. The findings highlight the need for adaptive workload allocation mechanisms based on real-time CPU usage to achieve balanced resource utilization and improved overall performance.
 
 ### Core Technical Contributions
 - **Batch Based Commit Processing Approach:**  
