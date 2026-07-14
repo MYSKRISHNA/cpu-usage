@@ -24,21 +24,6 @@ Efficient CPU resource management is essential for maintaining high performance 
 
 - **Scalability Analysis Across Cluster Sizes:** Evaluated CPU utilization across clusters of 3, 5, 7, 9, and 11 nodes, demonstrating the scalability benefits of adaptive resource allocation over deterministic approaches. 
 
-
-
-
-
-
-
-- **Improved Transaction Processing Efficiency:**  
-Processing multiple transactions together reduces communication rounds and synchronization delays, enabling faster completion of distributed transactions and better utilization of system resources.
-
-- **Better Scalability for Distributed Systems:**  
-Commit latency grows gradually with cluster expansion because fewer coordination rounds are required, enabling distributed systems to maintain stable transaction processing performance.
-
-- **Applicability to Distributed Platforms:**  
-The approach benefits distributed databases, cloud transaction systems, financial platforms, and microservice architectures that require efficient transaction completion and scalable commit processing.
- 
 ### Experimental Results (Summary)
 
   | Nodes | Immediate Commit | Group Commit | Improvment (%) |
@@ -50,14 +35,14 @@ The approach benefits distributed databases, cloud transaction systems, financia
   | 11    |  260             | 155          | 40.38          |
 
 ### Citation
-Transaction Batching for Low Latency Commit Processing in Distributed Systems
+Adaptive CPU Resource Management in Distributed Systems
 * SaiKrishna Mylavarapu
-* International Journal on Science and Technology (IJSAT) 
-* ISSN E-ISSN: 2229-7677
+* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
+* ISSN E-ISSN: 2147-6799
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijsat.org \
+https://www.ijisae.org/
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
 
