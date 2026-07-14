@@ -13,21 +13,22 @@
 Efficient CPU resource management is essential for maintaining high performance in distributed systems as workloads and cluster sizes increase. Static workload allocation results in uneven CPU utilization, while conventional load balancing techniques cannot effectively adapt to dynamic workload variations. The study analyzes CPU usage across clusters with 3, 5, 7, 9, and 11 nodes to evaluate the limitations of existing allocation strategies. It demonstrates how workload imbalance and coordination overhead reduce resource utilization, system efficiency, and scalability. The findings highlight the need for adaptive workload allocation mechanisms based on real-time CPU usage to achieve balanced resource utilization and improved overall performance.
 
 ### Core Technical Contributions
-- **Batch Based Commit Processing Approach:**  
-Introduced a commit method that groups multiple transactions into a single coordination cycle, reducing repeated commit operations and lowering synchronization overhead in distributed transaction systems.
 
-- **Reduced Coordination Overhead:**  
-Designed a commit model that minimizes repeated communication and synchronization between coordinator and participant nodes, improving efficiency during the commit phase of transactions.
+- **Adaptive CPU Resource Allocation Framework:** Designed a dynamic workload allocation framework that distributes tasks based on real time CPU utilization, improving resource efficiency and balanced node utilization.
 
-- **Distributed Transaction Simulation Model:** 
-Implemented a distributed transaction processing environment using Go based concurrent workers to simulate coordinator participant communication and analyze commit behavior across multiple nodes.
+- **Intelligent Load Balancing Mechanism:** Implemented a load balancing strategy that selects the least loaded active server, reducing workload imbalance and improving CPU utilization across distributed nodes.
 
-- **Scalability Analysis Across Cluster Sizes:**  
-Evaluated commit latency across clusters with 3, 5, 7, 9, and 11 nodes to study how batching influences scalability and transaction completion performance.
+- **Adaptive Auto Scaling Strategy:** Developed an auto scaling mechanism that provisions additional worker nodes when CPU load exceeds predefined thresholds, ensuring sustained performance under increasing workloads.
 
-### Practical Significance and Impact
-- **Lower Commit Latency:**
-Batch based commit processing significantly decreases the time required to finalize transactions by reducing repeated coordination cycles that occur in conventional immediate commit protocols.
+- **Distributed System Simulation Model:** Implemented a Go based distributed system simulator integrating load balancing, server health monitoring, and adaptive scaling to evaluate CPU resource management strategies.
+
+- **Scalability Analysis Across Cluster Sizes:** Evaluated CPU utilization across clusters of 3, 5, 7, 9, and 11 nodes, demonstrating the scalability benefits of adaptive resource allocation over deterministic approaches. 
+
+
+
+
+
+
 
 - **Improved Transaction Processing Efficiency:**  
 Processing multiple transactions together reduces communication rounds and synchronization delays, enabling faster completion of distributed transactions and better utilization of system resources.
