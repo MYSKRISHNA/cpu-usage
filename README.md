@@ -50,7 +50,7 @@ The approach benefits distributed databases, cloud transaction systems, financia
 
 ### Citation
 Transaction Batching for Low Latency Commit Processing in Distributed Systems
-* Naveen Kumar Bandaru
+* SaiKrishna Mylavarapu
 * International Journal on Science and Technology (IJSAT) 
 * ISSN E-ISSN: 2229-7677
 * License \
@@ -58,7 +58,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.ijsat.org \
 **Author Contact** \
-**LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
+**LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
 
 
 
