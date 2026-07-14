@@ -40,7 +40,7 @@ Adaptive CPU Resource Management in Distributed Systems
 * International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
 * ISSN E-ISSN: 2147-6799
 * License \
-This research is shared for a academic and research purposes. For commercial use, please contact the author.\
+This research is shared for a academic and research purposes. For commercial use, please contact the author.
 * Resources \
 https://www.ijisae.org/ \
 * Author Contact \
